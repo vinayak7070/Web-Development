@@ -1,0 +1,92 @@
+[
+  {
+    "questionText": "Which of the following is a programming language?",
+    "options": [
+      { "text": "HTML", "isCorrect": false },
+      { "text": "CSS", "isCorrect": false },
+      { "text": "Java", "isCorrect": true },
+      { "text": "XML", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the main function of the ALU in a computer?",
+    "options": [
+      { "text": "Store data", "isCorrect": false },
+      { "text": "Perform arithmetic and logic operations", "isCorrect": true },
+      { "text": "Control input and output devices", "isCorrect": false },
+      { "text": "Manage memory", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Which of the following is an example of system software?",
+    "options": [
+      { "text": "Microsoft Word", "isCorrect": false },
+      { "text": "Adobe Photoshop", "isCorrect": false },
+      { "text": "Windows Operating System", "isCorrect": true },
+      { "text": "Google Chrome", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What does RAM stand for?",
+    "options": [
+      { "text": "Read Access Memory", "isCorrect": false },
+      { "text": "Random Access Memory", "isCorrect": true },
+      { "text": "Real Access Memory", "isCorrect": false },
+      { "text": "Runtime Access Memory", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Which of the following is not a type of computer network?",
+    "options": [
+      { "text": "LAN", "isCorrect": false },
+      { "text": "WAN", "isCorrect": false },
+      { "text": "MAN", "isCorrect": false },
+      { "text": "TAN", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "In which year was the first iPhone released?",
+    "options": [
+      { "text": "2005", "isCorrect": false },
+      { "text": "2006", "isCorrect": false },
+      { "text": "2007", "isCorrect": true },
+      { "text": "2008", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the primary purpose of an operating system?",
+    "options": [
+      { "text": "To manage computer hardware and software resources", "isCorrect": true },
+      { "text": "To browse the internet", "isCorrect": false },
+      { "text": "To create documents", "isCorrect": false },
+      { "text": "To play games", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Which of the following is not a peripheral device?",
+    "options": [
+      { "text": "Printer", "isCorrect": false },
+      { "text": "Keyboard", "isCorrect": false },
+      { "text": "Monitor", "isCorrect": false },
+      { "text": "CPU", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "What does GUI stand for in computing?",
+    "options": [
+      { "text": "Graphical User Interface", "isCorrect": true },
+      { "text": "General User Interface", "isCorrect": false },
+      { "text": "Global User Interface", "isCorrect": false },
+      { "text": "Graphical Utility Interface", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the function of a compiler in programming?",
+    "options": [
+      { "text": "To edit the source code", "isCorrect": false },
+      { "text": "To translate the source code into machine code", "isCorrect": true },
+      { "text": "To execute the source code", "isCorrect": false },
+      { "text": "To debug the source code", "isCorrect": false }
+    ]
+  }
+]

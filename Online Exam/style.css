@@ -1,0 +1,19 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.timer {
+  font-weight: bold;
+}
+
+/* Styling for quiz container */
+#quiz-container {
+  margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .container {
+      max-width: 800px;
+  }
+}

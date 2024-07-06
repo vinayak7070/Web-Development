@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .about-us-section {
+            background: linear-gradient(135deg, #060d94 0%, #ff0040 100%);
+            color: white;
+            border-radius: 15px;
+        }
+        .about-us-section h2, .about-us-section h3 {
+            color: #ffffff;
+        }
+        .about-us-section ul {
+            padding-left: 1rem;
+        }
+        .about-us-section li {
+            margin-bottom: 10px;
+        }
+        .about-us-section strong {
+            color: #ffeb3b;
+        }
+        .footer {
+            background-color: #343a40;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Computer Test</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="about-us-section text-gray-600 body-font mt-5 py-5">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                <h1 class="text-3xl font-medium title-font mb-4"><b>About US</b></h1>
+                <p class="leading-relaxed text-lg mb-8">
+                    Welcome to the Online Exam Platform for Computer Applications, your trusted partner in achieving academic excellence in the field of computer science and technology. Our mission is to provide a comprehensive, accessible, and user-friendly platform that empowers students, educators, and institutions to assess and enhance their knowledge in computer applications effectively.
+                </p>
+                <h2 class="text-2xl font-medium title-font mb-2">Our Vision</h2>
+                <p class="leading-relaxed text-lg mb-8">
+                    We envision a future where quality education in computer applications is accessible to all, enabling students to excel and thrive in the rapidly evolving digital world.
+                </p>
+                <h2 class="text-2xl font-medium title-font mb-2"><b>Our Mission</b></h2>
+                <p class="leading-relaxed text-lg mb-8">
+                    <ul class="list-disc list-inside">
+                        <li><strong>Facilitate Learning:</strong> Provide a robust and intuitive platform that makes learning and assessment in computer applications seamless and effective.</li>
+                        <li><strong>Promote Excellence:</strong> Help students achieve their highest potential through well-structured and challenging assessments.</li>
+                        <li><strong>Support Educators:</strong> Offer tools and resources that assist educators in creating, managing, and evaluating exams efficiently.</li>
+                        <li><strong>Enhance Accessibility:</strong> Ensure that our platform is accessible to a diverse range of users, including those from underserved communities.</li>
+                    </ul>
+                </p>
+                <h3 class="text-2xl font-medium title-font mb-2">What We Offer</h3>
+                <p class="leading-relaxed text-lg mb-8">
+                    <strong>Comprehensive Exam Preparation:</strong>
+                    <ul class="list-disc list-inside">
+                        <li>A wide range of practice tests and mock exams covering various topics in computer applications.</li>
+                        <li>Detailed explanations and solutions for each question to help students understand concepts thoroughly.</li>
+                    </ul>
+                    <strong>Customizable Assessments:</strong>
+                    <ul class="list-disc list-inside">
+                        <li>Tools for educators to create custom exams tailored to their curriculum and teaching style.</li>
+                        <li>Flexibility to adjust the difficulty level and focus areas according to student needs.</li>
+                    </ul>
+                    <strong>Interactive Learning Experience:</strong>
+                    <ul class="list-disc list-inside">
+                        <li>Interactive quizzes and instant feedback to keep students engaged and motivated.</li>
+                        <li>Progress tracking and performance analytics to help students and educators monitor improvement over time.</li>
+                    </ul>
+                    <strong>User-Friendly Interface:</strong>
+                    <ul class="list-disc list-inside">
+                        <li>An intuitive and easy-to-navigate platform designed for users of all technical backgrounds.</li>
+                        <li>Mobile-friendly design ensuring access to exams and resources on the go.</li>
+                    </ul>
+                </p>
+                <h3 class="text-2xl font-medium title-font mb-2">Our Commitment</h3>
+                <p class="leading-relaxed text-lg">
+                    At the Online Exam Platform for Computer Applications, we are committed to continuous improvement and innovation. We value feedback from our users and strive to incorporate their suggestions to enhance our services. Our dedicated team of educators, developers, and support staff work tirelessly to ensure that our platform remains a trusted resource for your academic journey.
+                </p>
+                <p class="leading-relaxed text-lg mb-8">
+                    Thank you for choosing us as your partner in learning. Together, let's unlock the potential of every student and pave the way for a brighter future in computer science and technology.
+                </p>
+                <h1 ><b>VINAYAK DUBEY</b></h1>
+                <p class="text-gray-300">Front-End Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center py-3 mt-auto">
+        <div class="container">
+            <p>&copy; 2024 Online Exam Platform. All rights reserved by Vinayak Dubey.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+                <li class="list-inline-item"><a href="#" class="text-white">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
